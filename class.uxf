@@ -8,9 +8,11 @@ Tel. Nummer
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>630</x><y>0</y><w>210</w><h>70</h></coordinates><panel_attributes>_Abonnament_
 --
 preis
+name
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>630</x><y>190</y><w>210</w><h>70</h></coordinates><panel_attributes>_Durchführung_
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>380</y><w>210</w><h>120</h></coordinates><panel_attributes>_Auto_
+Start_datum
+End_datum</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>380</y><w>210</w><h>120</h></coordinates><panel_attributes>_Auto_
 --
 Name
 Marke
@@ -18,11 +20,11 @@ Anz Personen
 Anz Koffer
 Automatic 
 Art
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>760</x><y>520</y><w>210</w><h>70</h></coordinates><panel_attributes>_Rechnung_
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>500</y><w>210</w><h>70</h></coordinates><panel_attributes>_Rechnung_
 --
 Preis
 Info
-Datum</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>670</x><y>350</y><w>210</w><h>70</h></coordinates><panel_attributes>_Ermahnung_
+Datum</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>330</y><w>210</w><h>70</h></coordinates><panel_attributes>_Ermahnung_
 --
 Datum</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>200</y><w>210</w><h>70</h></coordinates><panel_attributes>_Stadt_
 --
@@ -30,17 +32,21 @@ PLZ
 Ort</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>220</y><w>160</w><h>50</h></coordinates><panel_attributes>lt=-
 m1=0..n
 m2=0..1
-</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>390</y><w>120</w><h>140</h></coordinates><panel_attributes>lt=-
-m1=0..n
-m2=0..1
-</panel_attributes><additional_attributes>90;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>60</y><w>40</w><h>150</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>740</x><y>390</y><w>50</w><h>130</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=0..*
+</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>60</y><w>40</w><h>150</h></coordinates><panel_attributes>lt=-
 m1=1
 m2=1
 </panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>570</y><w>210</w><h>70</h></coordinates><panel_attributes>_Studentarif_tag_
 --
 Preis_pro_stunde</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>570</y><w>210</w><h>70</h></coordinates><panel_attributes>_Stundentarif_nacht_
 --
-preis_pro_stunde</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>490</y><w>210</w><h>100</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;40;190;40;190;80</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>490</y><w>210</w><h>100</h></coordinates><panel_attributes>lt=-
+preis_pro_stunde</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>490</y><w>210</w><h>100</h></coordinates><panel_attributes>lt=-
 m1=0..*
 m2=0..1
-</panel_attributes><additional_attributes>170;10;170;40;10;40;10;80</additional_attributes></element></diagram>
+</panel_attributes><additional_attributes>170;10;170;40;10;40;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>490</y><w>220</w><h>100</h></coordinates><panel_attributes>lt=-
+m2=0..1
+</panel_attributes><additional_attributes>10;10;10;40;180;40;180;80</additional_attributes></element><element><id>UMLNote</id><coordinates><x>20</x><y>310</y><w>260</w><h>160</h></coordinates><panel_attributes>Applikatorisch wird gelöst dass sich Personnen
+im gleichen Haushalt befinden 
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element></diagram>
