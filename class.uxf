@@ -11,6 +11,7 @@ preis
 name
 start_datum
 end_datum
+rabatt
 
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>780</x><y>280</y><w>210</w><h>110</h></coordinates><panel_attributes>_Durchführung_
@@ -77,10 +78,4 @@ m2=1
 </panel_attributes><additional_attributes>10;150;10;90;220;90;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>120</y><w>260</w><h>100</h></coordinates><panel_attributes>lt=-
 m1=1
 m2=1
-</panel_attributes><additional_attributes>10;10;120;10;120;70;240;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>80</y><w>210</w><h>70</h></coordinates><panel_attributes>_Rabatt_
---
-name
-anzahl_rabat</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>100</y><w>160</w><h>50</h></coordinates><panel_attributes>lt=-
-m1=1
-m2=0..1
-</panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element></diagram>
+</panel_attributes><additional_attributes>10;10;120;10;120;70;240;70</additional_attributes></element></diagram>
