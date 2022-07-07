@@ -61,8 +61,6 @@ wenn das Abo ablauft damit man kein Auto
 sonst resevieren kann
 
 
-Fragen: Wie wird was verrechnet, so gut
-Auto nichts mit abo
 bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>630</x><y>290</y><w>40</w><h>40</h></coordinates><panel_attributes>type=decision</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>880</x><y>210</y><w>40</w><h>90</h></coordinates><panel_attributes>lt=-
 m1=1
 m2=1
