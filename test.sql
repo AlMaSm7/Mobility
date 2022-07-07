@@ -237,14 +237,6 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 INSERT INTO `ort`(`plz`, `stadt`) VALUES 
   ('8134','Adlswil'),
   ('8038', 'Wollishofen');
-INSERT INTO `tarif`(`preis_pro_stunde_nacht`, `preis_pro_stunde_tag`, `kilomoter_unter_100`, `kilometer_ueber_100`) VALUES 
-  ('2.70CHF','0.60CHF','0.50CHF','0.25CHF'), 
-  ('2.70CHF','0.60CHF','0.54CHF','0.27CHF'), 
-  ('2.70CHF','0.60CHF','0.60CHF','0.30CHF');
-INSERT INTO `auto`(`name`, `model`, `anz_personen`, `anz_koffer`, `tarif_id`, `manual`) VALUES 
-  ('M-Budget','Fiat Panda','5','2', 1, 'm'),
-  ('Micro','Smart passion','2','1', 2, 'a'),
-  ('Economy','Suzuki Swift','5','3', 3, 'b');   
 INSERT INTO `abonnament`(`name`, `preis`, `rabatt`, `beschreibung`) VALUES 
   ('Jahresabo ohne ermässigung','290CHF', '', 'jahresabo ohne ermässigungen'),
   ('Jahresabo ohne ermässigung','290CHF', '100CHF', 'jahresabo mit ermässigungen von GA, Halbtax, Jahres-Streckenabo der SBB oder Jahreskarte vom lokalen Verkehrsbetrieb'),
@@ -253,12 +245,20 @@ INSERT INTO `rechnung`(`preis`, `datum`, `anrede`, `beschreibung`, `bezahlt`) VA
   ('15.40CHF', DATE '2022-05-22', 'Alex Smolders', 'Autofahrt in der Zürich', 1),
   ('145CHF', DATE '2022-05-22', 'Severin Machaz', 'Abo zahlung', 0),
   ('290CHF', DATE '2022-05-17', 'Alex Smolders', 'Abo zahlung', 1);
-INSERT INTO `ermahnung` (`datum`, `rechnung_id`) VALUES 
-  ('2022-06-02', '2');
 INSERT INTO `person`(`name`, `vorname`, `adresse`, `tel_nummer`, `ort_id`, `abonnament_id`, `rechnung_id`, `verantwortlicher_haushalt`) VALUES
   ('Smolders','Alex','musterstrasse 66','078 654 32 19', 1, 1, 3, null),
   ('Machaz','Severin','kolsterstrasse 66','078 654 32 18', 2, 3, 2, 1),
   ('Muster','Max','kolsterstrasse 66','078 653 32 18', 2, 3, null, 0);
+INSERT INTO `tarif`(`preis_pro_stunde_nacht`, `preis_pro_stunde_tag`, `kilomoter_unter_100`, `kilometer_ueber_100`) VALUES 
+  ('2.70CHF','0.60CHF','0.50CHF','0.25CHF'), 
+  ('2.70CHF','0.60CHF','0.54CHF','0.27CHF'), 
+  ('2.70CHF','0.60CHF','0.60CHF','0.30CHF');
+INSERT INTO `auto`(`name`, `model`, `anz_personen`, `anz_koffer`, `tarif_id`, `manual`) VALUES 
+  ('M-Budget','Fiat Panda','5','2', 1, 'm'),
+  ('Micro','Smart passion','2','1', 2, 'a'),
+  ('Economy','Suzuki Swift','5','3', 3, 'b');   
+INSERT INTO `ermahnung` (`datum`, `rechnung_id`) VALUES 
+  ('2022-06-02', '2');
 INSERT INTO `ausleihe`( `start_timestamp`, `end_timestamp`, `kilometer`, `rechnung_id`, `ort_id` ) VALUES
   ( '2022-04-29 07:00:00', '2022-04-29 09:00:00', '50', 1, 1 );
 INSERT INTO `person_auto`(`person_id`, `auto_id`, `ausleihe_id`) VALUES 
