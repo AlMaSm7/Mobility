@@ -1,4 +1,4 @@
-<diagram program="umletino" version="15.0.0"><zoom_level>12</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>552</x><y>300</y><w>252</w><h>156</h></coordinates><panel_attributes>_Person_
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>390</x><y>250</y><w>210</w><h>130</h></coordinates><panel_attributes>_Person_
 --
 name 
 vorname
@@ -6,7 +6,7 @@ adresse
 email
 tel_ nummer
 verantwortlicher
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>552</x><y>96</y><w>252</w><h>120</h></coordinates><panel_attributes>_Abonnament_
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>80</y><w>210</w><h>100</h></coordinates><panel_attributes>_Abonnament_
 --
 preis
 name
@@ -15,14 +15,14 @@ end_datum
 rabatt
 
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1080</x><y>336</y><w>252</w><h>132</h></coordinates><panel_attributes>_Ausleihe(Durchführung)_
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>830</x><y>280</y><w>210</w><h>110</h></coordinates><panel_attributes>_Ausleihe(Durchführung)_
 --
 start_timestamp
 end_timestamp
 kilometer
 ort
 end_datum
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>552</x><y>564</y><w>252</w><h>144</h></coordinates><panel_attributes>_Auto_
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>470</y><w>210</w><h>120</h></coordinates><panel_attributes>_Auto_
 --
 name
 marke
@@ -30,31 +30,31 @@ anz Personen
 anz Koffer
 automatic 
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1080</x><y>180</y><w>252</w><h>84</h></coordinates><panel_attributes>_Rechnung_
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>830</x><y>150</y><w>210</w><h>70</h></coordinates><panel_attributes>_Rechnung_
 --
 preis
-datum</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1080</x><y>0</y><w>252</w><h>96</h></coordinates><panel_attributes>_Ermahnung_
+datum</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>830</x><y>0</y><w>210</w><h>80</h></coordinates><panel_attributes>_Ermahnung_
 --
-datum</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>144</x><y>348</y><w>252</w><h>84</h></coordinates><panel_attributes>_Ort_
+datum</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>290</y><w>210</w><h>70</h></coordinates><panel_attributes>_Ort_
 --
 plz
-stadt</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>384</x><y>384</y><w>192</w><h>48</h></coordinates><panel_attributes>lt=-
+stadt</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>320</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=-
 m1=1
-m2=0..*</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1200</x><y>84</y><w>60</w><h>120</h></coordinates><panel_attributes>lt=-
+m2=0..*</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>930</x><y>70</y><w>50</w><h>100</h></coordinates><panel_attributes>lt=-
 m1=1
 m2=0..*
-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>204</y><w>60</w><h>120</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>170</y><w>50</w><h>100</h></coordinates><panel_attributes>lt=-
 m1=0..*
 m2=1
-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>552</x><y>792</y><w>252</w><h>108</h></coordinates><panel_attributes>_Tarif_
+</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>660</y><w>210</w><h>90</h></coordinates><panel_attributes>_Tarif_
 --
 preis_pro_stunde_nacht
 preis_pro_stunde_tag
 kilometer_unter_100
-kilometer_ueber_100</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>696</y><w>60</w><h>120</h></coordinates><panel_attributes>lt=-
+kilometer_ueber_100</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>580</y><w>50</w><h>100</h></coordinates><panel_attributes>lt=-
 m1=1..*
 m2=1..1
-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLNote</id><coordinates><x>84</x><y>552</y><w>372</w><h>192</h></coordinates><panel_attributes>Applikatorisch wird gelöst dass sich Personnen
+</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLNote</id><coordinates><x>0</x><y>460</y><w>310</w><h>160</h></coordinates><panel_attributes>Applikatorisch wird gelöst dass sich Personnen
 im gleichen Haushalt befinden. 
 
 Rechnung Preis wird auch applikatorisch gelöst.
@@ -64,20 +64,20 @@ wenn das Abo ablauft damit man kein Auto
 sonst resevieren kann
 
 
-bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>900</x><y>348</y><w>48</w><h>48</h></coordinates><panel_attributes>type=decision</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1200</x><y>252</y><w>48</w><h>108</h></coordinates><panel_attributes>lt=-
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>680</x><y>290</y><w>40</w><h>40</h></coordinates><panel_attributes>type=decision</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>930</x><y>210</y><w>40</w><h>90</h></coordinates><panel_attributes>lt=-
 m1=1
 m2=1
-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>792</x><y>348</y><w>132</w><h>60</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>290</y><w>110</w><h>50</h></coordinates><panel_attributes>lt=-
 m1=1..*
 m2=1
-</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>936</x><y>348</y><w>168</w><h>60</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>290</y><w>140</w><h>50</h></coordinates><panel_attributes>lt=-
 m1=1
 m2=1
-</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>384</y><w>312</w><h>204</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>320</y><w>260</w><h>170</h></coordinates><panel_attributes>lt=-
 m1=1
 m2=1..*
-</panel_attributes><additional_attributes>10;150;10;90;220;90;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>792</x><y>216</y><w>312</w><h>144</h></coordinates><panel_attributes>m1=0..1
+</panel_attributes><additional_attributes>10;150;10;90;220;90;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>180</y><w>260</w><h>120</h></coordinates><panel_attributes>m1=0..1
 m2=0..1
-</panel_attributes><additional_attributes>10;90;190;90;190;10;240;10</additional_attributes></element><element><id>Relation</id><coordinates><x>252</x><y>420</y><w>1008</w><h>120</h></coordinates><panel_attributes>m1=1
+</panel_attributes><additional_attributes>10;90;190;90;190;10;240;10</additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>350</y><w>840</w><h>100</h></coordinates><panel_attributes>m1=1
 m2=1..*
 </panel_attributes><additional_attributes>10;10;10;80;800;80;800;40</additional_attributes></element></diagram>
